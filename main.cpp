@@ -1,4 +1,4 @@
-# Test comment
+// Juan Sergio Matabuena Updated Version
 #include <algorithm>
 #include <fstream>
 #include <iostream>
@@ -54,6 +54,10 @@ int main() {
   // Find anagrams in the file
   vector<string> anagrams = findAnagrams(word, filename);
 
+  // Set up a count variable 
+  int count;
+  count = 1;
+
   // Output the results
   if (anagrams.empty()) {
     cout << "No anagrams found for the word '" << word << "' in the file."
@@ -61,7 +65,7 @@ int main() {
   } else {
     cout << "Anagrams found for the word '" << word << "':" << endl;
     for (const string &anagram : anagrams) {
-      cout << anagram << endl;
+      cout << count++ << ". " << anagram << endl;
     }
   }
 
