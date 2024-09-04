@@ -1,0 +1,65 @@
+// Test Run #1
+juansergiomatabuena@Juans-MacBook-Pro lab-0-learning-github-classroom-juansergiomatabuena % ./main  
+Enter a word: ship
+Enter the filename containing the list of words: words_alpha.txt
+Anagrams found for the word 'ship':
+1. hips
+2. phis
+3. pish
+4. ship
+
+
+// Test Run #2
+juansergiomatabuena@Juans-MacBook-Pro lab-0-learning-github-classroom-juansergiomatabuena % ./main  
+Enter a word: mate
+Enter the filename containing the list of words: words_alpha.txt                     
+Anagrams found for the word 'mate':
+1. mate
+2. meat
+3. meta
+4. tame
+5. team
+6. tema
+
+
+// Test Run #3
+juansergiomatabuena@Juans-MacBook-Pro lab-0-learning-github-classroom-juansergiomatabuena % ./main  
+Enter a word: juan
+Enter the filename containing the list of words: words_alpha.txt
+Anagrams found for the word 'juan':
+1. jaun
+2. juan
+
+
+// Test Run #4
+juansergiomatabuena@Juans-MacBook-Pro lab-0-learning-github-classroom-juansergiomatabuena % ./main  
+Enter a word: steam
+Enter the filename containing the list of words: words_alpha.txt
+Anagrams found for the word 'steam':
+1. mates
+2. meats
+3. metas
+4. satem
+5. steam
+6. stema
+7. tames
+8. teams
+
+
+// Test Run #5
+juansergiomatabuena@Juans-MacBook-Pro lab-0-learning-github-classroom-juansergiomatabuena % ./main  
+Enter a word: zzppwwqqrt
+Enter the filename containing the list of words: words_alpha.txt
+No anagrams found for the word 'zzppwwqqrt' in the file.
+
+// Test Run #6
+juansergiomatabuena@Juans-MacBook-Pro lab-0-learning-github-classroom-juansergiomatabuena % ./main  
+Enter a word: board
+Enter the filename containing the list of words: words_alpha.txt
+Anagrams found for the word 'board':
+1. abord
+2. bardo
+3. board
+4. broad
+5. dobra
+6. dorab
